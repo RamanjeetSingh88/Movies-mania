@@ -1,22 +1,24 @@
 
-# my-movie-site
+# My Movie Site
 
-A web application to browse and explore movies.
+A modern web application for exploring and browsing a wide variety of movies. Built using Next.js and TypeScript, this app offers a fast, dynamic, and user-friendly experience.
 
 ## Features
 
-- Browse and explore a wide selection of movies.
-- Dynamic and responsive user interface built with Next.js.
-- Integration with external APIs for fetching movie data.
+- **Movie Browsing**: Discover trending, top-rated, and genre-specific movies.
+- **Search Functionality**: Find movies by title or keywords.
+- **API Integration**: Powered by external APIs for fetching real-time movie data.
+- **Responsive Design**: Works seamlessly across devices, from desktops to smartphones.
 
 ## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Ensure you have the following installed:
 
-- Node.js (v16 or higher recommended)
+- Node.js (v16 or higher)
 - npm or yarn
+- Git
 
 ### Installation
 
@@ -37,36 +39,56 @@ Make sure you have the following installed:
 
 ### Usage
 
-Run the development server:
+To start the development server, run:
 ```bash
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+Visit [http://localhost:3000](http://localhost:3000) to view the application.
+
+For production:
+```bash
+npm run build
+npm start
+```
 
 ### Available Scripts
 
-- **dev**: `next dev`
-- **build**: `next build`
-- **start**: `next start`
-- **lint**: `next lint`
+- **dev**: Runs the development server.
+- **build**: Builds the application for production.
+- **start**: Starts the production server.
+- **lint**: Runs linting to ensure code quality.
+
+## API Integration
+
+This project uses the [TMDb API](https://www.themoviedb.org/) for movie data. Ensure you create a `.env.local` file with the following content:
+
+```env
+NEXT_PUBLIC_TMDB_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your TMDb API key. You can obtain an API key by signing up on the TMDb website.
+
+## Folder Structure
+
+The project's main folders are structured as follows:
+
+- **/pages**: Contains the main application routes.
+- **/components**: Reusable UI components.
+- **/styles**: Global and component-specific styles.
+- **/public**: Static assets like images and icons.
+- **/api**: API handlers and utilities for server-side interactions.
 
 ## Dependencies
 
-This project uses the following libraries and frameworks:
-- @clerk/nextjs
-- @next-auth/mongodb-adapter
-- mongodb
-- next
-- next-auth
-- react
-- react-dom
-- react-icons
+Key dependencies include:
 
-## License
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **TypeScript**: For type-safe development.
+- **Tailwind CSS**: A utility-first CSS framework.
+- **Axios**: For making HTTP requests.
 
-This project is licensed under the MIT License.
+See `package.json` for the full list of dependencies.
 
----
 
-Enjoy building your own movie discovery experience with **my-movie-site**!
+Enjoy building with **My Movie Site** and explore the endless possibilities of modern web development!
