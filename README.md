@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# my-movie-site
+
+A web application to browse and explore movies.
+
+## Features
+
+- Browse and explore a wide selection of movies.
+- Dynamic and responsive user interface built with Next.js.
+- Integration with external APIs for fetching movie data.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+Make sure you have the following installed:
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd my-movie-site
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Usage
+
+Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **dev**: `next dev`
+- **build**: `next build`
+- **start**: `next start`
+- **lint**: `next lint`
 
-## Learn More
+## Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+This project uses the following libraries and frameworks:
+- @clerk/nextjs
+- @next-auth/mongodb-adapter
+- mongodb
+- next
+- next-auth
+- react
+- react-dom
+- react-icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Enjoy building your own movie discovery experience with **my-movie-site**!
