@@ -1,5 +1,6 @@
 
-# My Movie Site
+# My Movie Site - Ramanjeet Singh(200553608)
+                  Barkirat Singh (200554052)
 
 A modern web application for exploring and browsing a wide variety of movies. Built using Next.js and TypeScript, this app offers a fast, dynamic, and user-friendly experience.
 
